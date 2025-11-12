@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="board">
+        <img src="./Images/pipe.png" class="pipe">
+        <img src="./Images/mario.gif" class="mario">
+        <img src="./Images/clouds.png" class="clouds">
+        <img src="./Images/coin.png" class="coin">
+    </div>
+
+    <div class="score">Pontuação: <span id="score">0</span></div>
+    <div>Pontuação Máxima: <span id="highScore">0</span></div>
+    <button id="restartBtn" style="display: none;">Reiniciar</button>
+    <button id="themeBtn">🌙 Modo Noite</button>
+
+    <audio id="jumpSound" src="./Sounds/jump.mp3"></audio>
+    <audio id="gameOverSound" src="./Sounds/game-over.mp3"></audio>
+</body>
+<script src="script.js"></script>
+</html>
