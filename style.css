@@ -22,7 +22,7 @@
 }
 
 .night-mode {
-    background: linear-gradient(rgb(50, 10, 90), rgb(90, 10, 90)) !important;
+    background: linear-gradient(rgb(100, 50, 60), rgb(50, 10, 100)) !important;
 }
 
 .night-mode .score {
